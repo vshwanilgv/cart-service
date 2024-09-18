@@ -1,15 +1,16 @@
 package com.example.cart_service.service;
 
-import com.example.cart_service.model.CartItem;
+import com.example.cart_service.dto.CartDTO;
+import com.example.cart_service.dto.CartItemDTO;
 
 import java.util.List;
 
 public interface CartService {
-    List<CartItem> getCartItems();
+    CartDTO getCartByUserId();
 
-    CartItem addCartItem(CartItemDTO cartItemDTO);
+    CartDTO addProductToCart(Long userId, CartItemDTO cartItemDTO);
 
-    CartItem updateCartItem(Long id, CartItemDTO cartItemDTO);
+    CartDTO updateProductInCart(Long userId, Long productId, CartItemDTO cartItemDTO);
 
-    void removeCartItem(Long id);
+    void removeProductFromCart(Long userId, Long productId);
 }
