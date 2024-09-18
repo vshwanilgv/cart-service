@@ -1,6 +1,5 @@
 package com.example.cart_service.service;
 
-import com.example.cart_service.CartItemDTO;
 import com.example.cart_service.exception.CartItemNotFoundException;
 import com.example.cart_service.model.CartItem;
 import com.example.cart_service.repository.CartRepository;

@@ -1,6 +1,5 @@
 package com.example.cart_service.service;
 
-import com.example.cart_service.CartItemDTO;
 import com.example.cart_service.model.CartItem;
 
 import java.util.List;

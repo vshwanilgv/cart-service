@@ -1,7 +1,6 @@
 package com.example.cart_service.controller;
 
 
-import com.example.cart_service.CartItemDTO;
 import com.example.cart_service.model.CartItem;
 import com.example.cart_service.service.CartServiceImpl;
 import org.springframework.beans.factory.annotation.Autowired;
