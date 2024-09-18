@@ -21,7 +21,6 @@ public class AbstractController {
     }
 
     protected <T> ResponseEntity<T> createdResponse(T data){
-
         return new ResponseEntity<>(data,HttpStatus.CREATED);
     }
 }

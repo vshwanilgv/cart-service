@@ -1,12 +1,9 @@
 package com.example.cart_service.service;
 
 import com.example.cart_service.dto.CartDTO;
-import com.example.cart_service.dto.CartItemDTO;
-
-import java.util.List;
 
 public interface CartService {
-    CartDTO getCartByUserId();
+    CartDTO getCartByUserId(Long userId);
 
     CartDTO addProductToCart(Long userId, CartItemDTO cartItemDTO);
 
